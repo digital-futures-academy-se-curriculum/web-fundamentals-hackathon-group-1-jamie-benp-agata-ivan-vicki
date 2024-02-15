@@ -1,31 +1,40 @@
 import React from "react";
 
 const WOBlock02 = function () {
-    return (
-        <>
-            <div className="container block" id="Block02">
-                <div className="row">
-                    <div className="col-md-3">
-                        <p>
-                            Opening Times:\n
-                            Monday: 9am - 9pm\n
-                            Tuesday: 9am - 9pm\n
-                            Wednesday: 9am - 9pm\n
-                            Thursday: 9am - 9pm\n
-                            Friday: 9am - 12am\n
-                            Saturday: 9am - 12am\n
-                            Sunday: 11am - 7pm
-                        </p>
-                    </div>
-                    <div className="col-md-9"></div>
-                    <img
-                        src="http://www.impawards.com/2016/posters/deadpool_ver11_xlg.jpg"
-                        alt="Block 01 Image"
-                    />
-                </div>
-            </div >
-        </>
-    );
+  return (
+    <>
+      <div className="container block" id="Block02">
+        <div className="row">
+          <div className="col-md-3">
+            <p>
+              <strong>Opening Times:</strong>
+              <br />
+              Monday: 9am - 9pm
+              <br />
+              Tuesday: 9am - 9pm
+              <br />
+              Wednesday: 9am - 9pm
+              <br />
+              Thursday: 9am - 9pm
+              <br />
+              Friday: 9am - 12am
+              <br />
+              Saturday: 9am - 12am
+              <br />
+              Sunday: 11am - 7pm
+            </p>
+          </div>
+          <div className="col-md-9">
+            <img
+              className="deadpool"
+              src="https://static1.srcdn.com/wordpress/wp-content/uploads/2017/12/Deadpool-2-Cable-banner.jpg"
+              alt="Block 01 Image"
+            />
+          </div>
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default WOBlock02;
