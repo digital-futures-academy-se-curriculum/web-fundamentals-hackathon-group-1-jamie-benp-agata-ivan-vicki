@@ -40,3 +40,31 @@
 .read-the-docs {
   color: #888;
 }
+
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: #333;
+  margin-right: 10px;
+}
+
+.social-icons a:hover {
+  color: #007bff;
+}
+
+.block {
+  padding: 20px;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.star {
+  max-width: 45px;
+  max-height: 45px;
+}
