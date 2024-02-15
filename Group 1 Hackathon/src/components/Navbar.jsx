@@ -1,19 +1,14 @@
-import { Link } from 'react-router-dom';
-
+import { Link } from "react-router-dom";
 
 const Navbar = function () {
   return (
     <>
-      <div className="container Navbar" >
+      <div className="container Navbar">
         <div className="row">
           <div className="col-md-3">
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
-
+            <nav className="navbar navbar-expand-lg">
               <Link className="navbar-brand" to="/">
-                <img
-                  class="star"
-                  src="https://banner2.cleanpng.com/20180404/qbq/kisspng-five-pointed-star-silhouette-shape-5-stars-5ac4b1155bd917.1121736715228398293762.jpg"
-                />
+                <img class="star" src="\src\assets\star.svg" />
               </Link>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -37,13 +32,12 @@ const Navbar = function () {
             </nav>
           </div>
         </div>
-      </div >
+      </div>
     </>
   );
 };
 
 export default Navbar;
-
 
 // import { Nav, NavLink, NavMenu } from "./NavbarElements";
 
