@@ -4,21 +4,14 @@
   padding: 2rem;
   background-color: #071426;
   text-align: center;
-  color: #FAEBD7;
+  color: #faebd7;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-
 }
-
-
-
-
 
 .card {
   padding: 2em;
 }
-
-
 
 .social-icons {
   display: flex;
@@ -27,7 +20,7 @@
 }
 
 .social-icons a {
-  color: #FAEBD7;
+  color: #faebd7;
   margin-right: 10px;
 }
 
@@ -41,7 +34,6 @@
 
 .navbar-parent {
   background-color: hsl(45, 60%, 57%);
-
 }
 
 .Navbar {
@@ -56,7 +48,7 @@
 }
 
 .Navbar a:hover {
-  color: #FAEBD7;
+  color: #faebd7;
 }
 
 .nav-link {
@@ -69,6 +61,32 @@
 }
 
 .bagel-man {
-  max-width: fit-content;
-  max-height: fit-content;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.deadpool {
+  max-width: 700px;
+  max-height: 300px;
+}
+
+/* .d-block w-100 {
+  max-width: 700px;
+  max-height: 300px;
+} */
+
+.block-text {
+  font-size: xx-large;
+  text-align: center;
+  padding: 150px 0 0 0;
+}
+
+.block-text-bagel {
+  font-size: xx-large;
+  text-align: center;
+  padding: 110px 0 0 0;
+}
+
+.bagel-text {
+  font-size: smaller;
 }
