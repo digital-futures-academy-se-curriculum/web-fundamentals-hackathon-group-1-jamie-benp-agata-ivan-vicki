@@ -24,7 +24,7 @@ const SocialIcons = () => {
           <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
       </div>
-      <p className="copyRight"> © DF Cinemas - 2021 -</p>
+      <p className="copyRight"> © DF Cinemas - 2024 -</p>
     </>
   );
 };

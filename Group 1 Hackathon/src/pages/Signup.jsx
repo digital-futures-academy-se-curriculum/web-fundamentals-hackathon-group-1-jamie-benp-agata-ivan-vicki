@@ -1,8 +1,14 @@
-import Navbar from "../components/Navbar.jsx";
+
 
 function Signup() {
-    return (<>
-    </>)
+    return (
+        <>
+            <div></div>
+            <div>
+                <h1>WHATS ON MY FRIENDS</h1>
+            </div>
+
+        </>)
 }
 
 

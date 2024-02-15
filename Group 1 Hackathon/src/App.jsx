@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Signup from "./pages/Signup";
 import WhatsOn from "./pages/WhatsOn";
 import Navbar from "./components/Navbar";
+import SocialIcons from "./components/SocialIcons";
 
 function App() {
   return (
@@ -15,9 +16,10 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="./pages/WhatsOn" element={<WhatsOn />} />
-        <Route path="./pages/Signup" element={<Signup />} />
+        <Route path="/WhatsOn" element={<WhatsOn />} />
+        <Route path="/Signup" element={<Signup />} />
       </Routes>
+      <SocialIcons />
     </Router>
 
   );

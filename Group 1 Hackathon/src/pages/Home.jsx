@@ -11,7 +11,7 @@ function Home() {
                 <Block01 />
                 <Block02 />
                 <Block03 />
-                <SocialIcons />
+
             </div>
         </>
     );

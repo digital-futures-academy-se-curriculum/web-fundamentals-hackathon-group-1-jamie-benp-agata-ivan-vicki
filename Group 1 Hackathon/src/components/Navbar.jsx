@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+
 const Navbar = function () {
   return (
     <>
@@ -16,7 +17,7 @@ const Navbar = function () {
                 <ul class="navbar-nav">
                   <li class="nav-item active">
                     <Link className="nav-link" to="/">
-                      Home <span class="sr-only">(current)</span>
+                      Home <span class="sr-only"></span>
                     </Link>
                   </li>
                   <li class="nav-item">
@@ -41,3 +42,19 @@ const Navbar = function () {
 
 export default Navbar;
 
+
+// import { Nav, NavLink, NavMenu } from "./NavbarElements";
+
+// <Nav>
+//     <NavMenu>
+//         <NavLink to="./pages/Home" activeStyle>
+//             Home
+//         </NavLink>
+//         <NavLink to="./pages/Whatson" activeStyle>
+//             Whats On
+//         </NavLink>
+//         <NavLink to="./pages/Signup" activeStyle>
+//             Sign Up
+//         </NavLink>
+//     </NavMenu>
+// </Nav>
