@@ -1,6 +1,6 @@
-import Block01 from "../components/Block01";
-import Block02 from "../components/Block02";
-import Block03 from "../components/Block03";
+import Block01 from "../components/Home/Block01";
+import Block02 from "../components/Home/Block02";
+import Block03 from "../components/Home/Block03";
 import SocialIcons from "../components/SocialIcons";
 
 

@@ -13,7 +13,9 @@ function App() {
   return (
 
     <Router>
-      <Navbar />
+      <div className="navbar-parent">
+        <Navbar />
+      </div>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/WhatsOn" element={<WhatsOn />} />

@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 const Navbar = function () {
   return (
     <>
-      <div className="container">
+      <div className="container Navbar" >
         <div className="row">
-          <div className="col-md-4">
+          <div className="col-md-3">
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <Link className="navbar-brand" to="/">
                 <img
