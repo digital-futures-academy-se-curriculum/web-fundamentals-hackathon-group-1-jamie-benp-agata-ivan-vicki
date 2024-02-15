@@ -1,27 +1,26 @@
-import { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-import Navbar from "./Navbar";
-import Block01 from "./Block01";
-import Block02 from "./Block02";
-import Block03 from "./Block03";
-import SocialIcons from "./SocialIcons";
+import Home from "./pages/Home";
+import Signup from "./pages/Signup";
+import WhatsOn from "./pages/WhatsOn";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Navbar />
-        <Block01 />
-        <Block02 />
-        <Block03 />
-        <SocialIcons />
-      </div>
-      <p className="copyRight"> © DF Cinemas - 2021 -</p>
-    </>
+
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/WhatsOn" element={<WhatsOn />} />
+        <Route path="/Signup" element={<Signup />} />
+      </Routes>
+    </Router>
+
   );
-}
+};
 
 export default App;
