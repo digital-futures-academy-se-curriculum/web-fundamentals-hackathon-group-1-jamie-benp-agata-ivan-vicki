@@ -13,8 +13,8 @@ function WhatsOn() {
                 <WOBlock03 />
             </div>
 
-        </>)
-}
+        </>);
+};
 
 
 export default WhatsOn;
