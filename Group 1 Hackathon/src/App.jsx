@@ -15,8 +15,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/WhatsOn" element={<WhatsOn />} />
-        <Route path="/Signup" element={<Signup />} />
+        <Route path="./pages/WhatsOn" element={<WhatsOn />} />
+        <Route path="./pages/Signup" element={<Signup />} />
       </Routes>
     </Router>
 
