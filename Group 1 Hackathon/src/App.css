@@ -9,7 +9,6 @@
 
 .card {
   padding: 2em;
-
 }
 
 .social-icons {
@@ -59,7 +58,7 @@
 .star {
   max-width: 45px;
   max-height: 45px;
-
+  color: #071426;
 }
 
 .bagel-man {
@@ -102,10 +101,7 @@
 }
 
 @media (max-width: 576px) {
-
   p {
     text-align: center;
   }
-
-
 }
