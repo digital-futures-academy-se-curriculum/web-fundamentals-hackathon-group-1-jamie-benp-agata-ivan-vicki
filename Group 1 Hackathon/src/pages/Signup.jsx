@@ -1,6 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
+import ReactDOM from 'react-dom/client';
 
 function Signup() {
+    const [formData, setFormData] = useState({
+        title: "",
+        firstName: "",
+        lastName: "",
+        email: "",
+        dateOfBirth: "",
+        phone: ""
+    });
+
+    const handleChange = (e) => {
+            const { name, value } = e.target;
+            setFormData({
+              ...formData,
+              [name]: value
+            });
+          };
+
     return (
         <>
             <div className="container-left" id="photo-left-container">
@@ -32,6 +50,7 @@ function Signup() {
                             <div class="card-body">
 
                                 {/* Right Column Content */}
+                                {/*Form */}
                                 <form action="/submit-form" method="POST">
                                     <label htmlFor="title">Title*:</label><br />
                                     <input type="text" id="title" name="title" placeholder="Mr/Mrs/Miss/Other" required /><br /><br />
