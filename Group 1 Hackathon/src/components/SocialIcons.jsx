@@ -10,7 +10,8 @@ import {
 const SocialIcons = () => {
   return (
     <>
-      <div className="social-icons">
+      <footer className="social-icons">
+      <div className="container">
         <a href="https://www.facebook.com/digital.futures2021/" target="_blank">
           <FontAwesomeIcon icon={faFacebook} size="2x" />
         </a>
@@ -24,6 +25,7 @@ const SocialIcons = () => {
           <FontAwesomeIcon icon={faYoutube} size="2x" />
         </a>
       </div>
+      </footer>
       <p className="copyRight"> © DF Cinemas - 2024 -</p>
     </>
   );
